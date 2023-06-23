@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33312.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{50EBCAF0-D55F-428B-B09F-95899D4128F9}") = "Umbraco.Sample.Headless.Blog", "src\Umbraco.Sample.Headless.Blog\Umbraco.Sample.Headless.Blog.csproj", "{AC46456C-B1B4-4A68-A6C8-1366C32CFF9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFB57823-5986-4BC7-B45A-08599C01AF59}"
+	ProjectSection(SolutionItems) = preProject
+		.artifactignore = .artifactignore
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.globalconfig = .globalconfig
+		global.json = global.json
+		icon.png = icon.png
+		NuGet.config = NuGet.config
+		README.md = README.md
+		version.json = version.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC46456C-B1B4-4A68-A6C8-1366C32CFF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC46456C-B1B4-4A68-A6C8-1366C32CFF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC46456C-B1B4-4A68-A6C8-1366C32CFF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC46456C-B1B4-4A68-A6C8-1366C32CFF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB6974E2-B752-4311-A0AE-705EBA16C310}
+	EndGlobalSection
+EndGlobal
