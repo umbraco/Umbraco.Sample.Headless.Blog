@@ -7,7 +7,6 @@
     <Title>Umbraco Headless Blog Sample</Title>
     <Description>Installs sample data for a headless blog in your Umbraco CMS</Description>
     <PackageTags>umbraco plugin package headless</PackageTags>
-    <Version>0.1.1</Version>
     <Authors>Umbraco</Authors>
     <Copyright>Copyright © Umbraco 2023</Copyright>
     <PackageProjectUrl>https://umbraco.com/</PackageProjectUrl>
