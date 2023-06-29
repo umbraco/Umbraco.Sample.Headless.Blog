@@ -93,4 +93,4 @@ stages:
               command: 'push'
               packagesToPush: $(Build.ArtifactStagingDirectory)/**/*.nupkg
               nuGetFeedType: 'external'
-              publishFeedCredentials: 'NuGet - Umbraco.*'
+              publishFeedCredentials: 'NuGet - Umbraco.Sample.*'
