@@ -27,6 +27,9 @@ stages:
         pool:
           vmImage: 'ubuntu-latest'
         steps:
+          # Checkout source (avoid shallow clone to calculate version height)
+          - checkout: self
+            fetchDepth: 0
           - task: UseDotNet@2
             displayName: Use .NET SDK from global.json
             inputs:
