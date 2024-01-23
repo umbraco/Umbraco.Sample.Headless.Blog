@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ContentTargetFolders>.</ContentTargetFolders>
     <Product>Umbraco.Sample.Headless.Blog</Product>
     <PackageId>Umbraco.Sample.Headless.Blog</PackageId>
@@ -12,11 +12,12 @@
     <PackageProjectUrl>https://umbraco.com/</PackageProjectUrl>
     <PackageIconUrl>https://umbraco.com/dist/nuget/logo-small.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <LangVersion>12</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="12.0.0" />
-    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="12.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="13.0.0" />
+    <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="13.0.0" />
 
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.5.113" PrivateAssets="all" IsImplicitlyDefined="true" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435" PrivateAssets="all" IsImplicitlyDefined="true" />
