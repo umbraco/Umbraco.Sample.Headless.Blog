@@ -7,6 +7,8 @@ parameters:
     default: false
 
 variables:
+  dotnetVersion: 8.x
+  dotnetIncludePreviewVersions: false
   solution: Umbraco.Sample.Headless.Blog.sln
   buildConfiguration: Release
   DOTNET_NOLOGO: true
@@ -31,9 +33,11 @@ stages:
           - checkout: self
             fetchDepth: 0
           - task: UseDotNet@2
-            displayName: Use .NET SDK from global.json
+            displayName: Use .NET $(dotnetVersion)
             inputs:
-              useGlobalJson: true
+              version: $(dotnetVersion)
+              performMultiLevelLookup: true
+              includePreviewVersions: $(dotnetIncludePreviewVersions)
           - task: DotNetCoreCLI@2
             displayName: Run dotnet restore
             inputs:
